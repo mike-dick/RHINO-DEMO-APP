@@ -1,0 +1,81 @@
+//app/styles/main.scss
+
+//variables-start//
+$tab-color: rgba(137, 207, 240, 0.3);
+$tab-width: 100%;
+$tab-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+$tab-border-radius: 10px;
+$tab-padding: 6px;
+//variables-end//
+body
+{
+  padding: 20px;
+  background-color: #ededed;
+}
+.title
+{
+  margin: 0 auto;
+  color: red;
+  width: 100%;
+  text-align: center;
+}
+.upload-container
+{
+  background-color: $tab-color;
+  width: $tab-width;
+  height: 200px;
+  border-radius: $tab-border-radius;
+  padding: $tab-padding;
+  margin-top: 30px;
+  box-shadow: $tab-box-shadow;
+}
+.upload-container > h2
+{
+  font-weight: bold;
+}
+.line-break
+{
+  margin: 15px auto;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(0,0,0,0.5);
+}
+.sqlite-store-1
+{
+  background-color: $tab-color;
+  width: $tab-width;
+  height: 100px;
+  padding: $tab-padding;
+  padding-top: 15px;
+  box-shadow: $tab-box-shadow;
+  border-radius: $tab-border-radius;
+  margin-bottom: 30px;
+}
+.sqlite-store-1 > h3
+{
+  font-weight: bold;
+}
+.action-container
+{
+  background-color: $tab-color;
+  border-radius: $tab-border-radius;
+  width: $tab-width;
+  box-shadow: $tab-box-shadow;
+  padding: $tab-padding;
+}
+.action-container > h2
+{
+  font-weight: bold;
+}
+.local-dataframe
+{
+  margin-top: 40px;
+  background-color: $tab-color;
+  width: $tab-width;
+  height: 100px;
+  padding: $tab-padding;
+  padding-top: 15px;
+  box-shadow: $tab-box-shadow;
+  border-radius: $tab-border-radius;
+  margin-bottom: 30px;
+}
